@@ -1,5 +1,5 @@
-const homeAssistantUrl = "http://<home_assistant_url>:8123"; // Vervang door je Home Assistant URL
-const accessToken = "<your_access_token>"; // Vervang door je access token
+const homeAssistantUrl = "http://192.168.1.126:8123/"; // Vervang door je Home Assistant URL
+const accessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI4OGQ1MzAyZjY4NmQ0NGFhOTg4OTk3MjYwNjFjZjM0MSIsImlhdCI6MTc0Mzg2MDgyOSwiZXhwIjoyMDU5MjIwODI5fQ.d0ir5a4Ql0O1Oj8I8Om-1Wq7krJd8RTVjaxTPAGOUSs"; // Vervang door je access token
 const temperatureSensorEntityId = "sensor.meterkast_temperatuur"; // Vervang door je sensor's entity_id in Home Assistant
 
 // Functie om de temperatuur naar Home Assistant te sturen
